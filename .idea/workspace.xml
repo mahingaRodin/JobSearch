@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecb1dc8e-6124-4d6b-88d5-bdf3c164709d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deviceManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/common/cards/nearby/NearbyJobCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/common/cards/nearby/NearbyJobCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/common/cards/nearby/nearbyjobcard.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/common/cards/nearby/nearbyjobcard.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/common/cards/popular/PopularJobCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/common/cards/popular/PopularJobCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/home/nearby/Nearbyjobs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/home/nearby/Nearbyjobs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/home/popular/Popularjobs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/home/popular/Popularjobs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/home/welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/home/welcome/Welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/about/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/company/Company.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/company/Company.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/specifics/Specifics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/specifics/Specifics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/tabs/Tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/tabs/Tabs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2navjGeUacZQA1K2JqgMrldT2Tb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecb1dc8e-6124-4d6b-88d5-bdf3c164709d" name="Changes" comment="" />
+      <created>1729224136135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729224136135</updated>
+    </task>
+    <servers />
+  </component>
+</project>
