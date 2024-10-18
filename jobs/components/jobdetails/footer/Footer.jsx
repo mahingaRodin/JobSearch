@@ -7,7 +7,7 @@ import styles from "./footer.style";
 const Footer = ({ url }) => {
   return (
     <View style={styles.container}>
-      <TouchableOpacity styles={style.likeBtn}>
+      <TouchableOpacity styles={styles.likeBtn}>
         <Image
           source={icons.heartOutline}
           resizeMode="contain"

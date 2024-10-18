@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ActivityIndicator, FlatList, Image, TouchableOpacity, View } from 'react-native';
-import { Stack, useRouter, useRoute } from 'expo-router';  // Use `useRoute`
+import { Stack, useRouter, useGlobalSearchParams } from 'expo-router';  // Use `useRoute`
 import { Text, SafeAreaView } from 'react-native';
 import axios from 'axios';
 
@@ -10,8 +10,8 @@ import styles from '../../styles/search';
 
 const JobSearch = () => {
     const router = useRouter();
-    const route = useRoute();  // Get route information
-    const { id } = route.params;  // Extract search params from route
+    const route = useGlobalSearchParams();  // Get route information
+    const { id } = route;  // Extract search params from route
 
     const [searchResult, setSearchResult] = useState([]);
     const [searchLoader, setSearchLoader] = useState(false);
