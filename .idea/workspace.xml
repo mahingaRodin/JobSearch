@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecb1dc8e-6124-4d6b-88d5-bdf3c164709d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deviceManager.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/common/cards/nearby/NearbyJobCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/common/cards/nearby/NearbyJobCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/common/cards/nearby/nearbyjobcard.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/common/cards/nearby/nearbyjobcard.style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/common/cards/popular/PopularJobCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/common/cards/popular/PopularJobCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/home/nearby/Nearbyjobs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/home/nearby/Nearbyjobs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/home/popular/Popularjobs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/home/popular/Popularjobs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobs/app/search/[id].js" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/app/search/[id].js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/components/home/welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/home/welcome/Welcome.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/about/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/about/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/company/Company.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/company/Company.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/specifics/Specifics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/specifics/Specifics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobs/components/jobdetails/tabs/Tabs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/components/jobdetails/tabs/Tabs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jobs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/package.json" afterDir="false" />
     </list>

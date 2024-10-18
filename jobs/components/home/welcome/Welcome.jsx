@@ -17,10 +17,11 @@ const jobTypes = ["Full Time", "Part-time", "Contractor"];
 const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
   const router = useRouter();
   const [activeJobType, setActiveJobType] = useState("Full-time");
+
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.userName}>Hello Rodin !</Text>
+        <Text style={styles.userName}>Hello Rodin!</Text>
         <Text style={styles.welcomeMessage}>Find your Perfect Job</Text>
       </View>
 
@@ -29,9 +30,9 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
           <TextInput
             style={styles.searchInput}
             value={searchTerm}
-            onChangeText={() => setSearchTerm(text)}
+            onChangeText={(text) => setSearchTerm(text)}
             placeholder="What are you looking for?"
-          ></TextInput>
+          />
         </View>
 
         <TouchableOpacity style={styles.searchBtn} onPress={handleClick}>
@@ -42,6 +43,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
           />
         </TouchableOpacity>
       </View>
+
       <View style={styles.tabsContainer}>
         <FlatList
           data={jobTypes}

@@ -1,16 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import { ActivityIndicator, FlatList, Image, TouchableOpacity, View } from 'react-native'
-import { Stack, useRouter, useSearchParams } from 'expo-router'
-import { Text, SafeAreaView } from 'react-native'
-import axios from 'axios'
+import { useState, useEffect } from 'react';
+import { ActivityIndicator, FlatList, Image, TouchableOpacity, View } from 'react-native';
+import { Stack, useRouter, useRoute } from 'expo-router';  // Use `useRoute`
+import { Text, SafeAreaView } from 'react-native';
+import axios from 'axios';
 
-import { ScreenHeaderBtn, NearbyJobCard } from '../../components'
-import { COLORS, icons, SIZES } from '../../constants'
-import styles from '../../styles/search'
+import { ScreenHeaderBtn, NearbyJobCard } from '../../components';
+import { COLORS, icons, SIZES } from '../../constants';
+import styles from '../../styles/search';
 
 const JobSearch = () => {
-    const params = useSearchParams();
-    const router = useRouter()
+    const router = useRouter();
+    const route = useRoute();  // Get route information
+    const { id } = route.params;  // Extract search params from route
 
     const [searchResult, setSearchResult] = useState([]);
     const [searchLoader, setSearchLoader] = useState(false);
@@ -19,18 +20,18 @@ const JobSearch = () => {
 
     const handleSearch = async () => {
         setSearchLoader(true);
-        setSearchResult([])
+        setSearchResult([]);
 
         try {
             const options = {
-                method: "GET",
+                method: 'GET',
                 url: `https://jsearch.p.rapidapi.com/search`,
                 headers: {
-                    "X-RapidAPI-Key": '1bfb97edafmsh1dbdd5493725ceap1e966ajsn76eaec27cab1',
-                    "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
+                    'X-RapidAPI-Key': '1bfb97edafmsh1dbdd5493725ceap1e966ajsn76eaec27cab1',
+                    'X-RapidAPI-Host': 'jsearch.p.rapidapi.com',
                 },
                 params: {
-                    query: params.id,
+                    query: id,  // Use `id` from route params
                     page: page.toString(),
                 },
             };
@@ -47,17 +48,17 @@ const JobSearch = () => {
 
     const handlePagination = (direction) => {
         if (direction === 'left' && page > 1) {
-            setPage(page - 1)
-            handleSearch()
+            setPage(page - 1);
+            handleSearch();
         } else if (direction === 'right') {
-            setPage(page + 1)
-            handleSearch()
+            setPage(page + 1);
+            handleSearch();
         }
-    }
+    };
 
     useEffect(() => {
-        handleSearch()
-    }, [])
+        handleSearch();
+    }, []);
 
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
@@ -68,11 +69,11 @@ const JobSearch = () => {
                     headerLeft: () => (
                         <ScreenHeaderBtn
                             iconUrl={icons.left}
-                            dimension='60%'
+                            dimension="60%"
                             handlePress={() => router.back()}
                         />
                     ),
-                    headerTitle: "",
+                    headerTitle: '',
                 }}
             />
 
@@ -89,12 +90,12 @@ const JobSearch = () => {
                 ListHeaderComponent={() => (
                     <>
                         <View style={styles.container}>
-                            <Text style={styles.searchTitle}>{params.id}</Text>
+                            <Text style={styles.searchTitle}>{id}</Text>
                             <Text style={styles.noOfSearchedJobs}>Job Opportunities</Text>
                         </View>
                         <View style={styles.loaderContainer}>
                             {searchLoader ? (
-                                <ActivityIndicator size='large' color={COLORS.primary} />
+                                <ActivityIndicator size="large" color={COLORS.primary} />
                             ) : searchError && (
                                 <Text>Oops something went wrong</Text>
                             )}
@@ -130,7 +131,7 @@ const JobSearch = () => {
                 )}
             />
         </SafeAreaView>
-    )
-}
+    );
+};
 
-export default JobSearch
+export default JobSearch;
